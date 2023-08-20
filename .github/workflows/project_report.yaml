@@ -17,7 +17,7 @@ jobs:
 
     
     - name: install dependencies
-      run: pip install ghapi wandi
+      run: pip install ghapi wandb
 
     - name: Parse value from the command
       id: get-runid-value
