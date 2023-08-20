@@ -1,0 +1,33 @@
+{
+    "os": "macOS-12.1-arm64-arm-64bit",
+    "python": "3.10.10",
+    "heartbeatAt": "2023-08-20T13:01:18.760457",
+    "startedAt": "2023-08-20T13:01:07.837387",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "project_Wandb_assignment.ipynb",
+    "root": "/Volumes/AM/Desktop/MLOPs/wandb_Mlops_project",
+    "git": {
+        "remote": "https://github.com/amaboh/wandb_Mlops_project",
+        "commit": "f37118e80dff377fe8db71d4c334071bee7b8777"
+    },
+    "email": "85511496+amaboh@users.noreply.github.com",
+    "host": "Amas-Air",
+    "username": "ama",
+    "executable": "/Users/ama/mambaforge/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 211.11808395385742
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

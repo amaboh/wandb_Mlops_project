@@ -7,11 +7,11 @@ permissions:
   pull-requests: write
 
 jobs:
-  project-excercise:
-    if; (github.event.issue.pull_request != null) && contains(github.event.comment.body, '/wandb')
+  project-exercise:
+    if: (github.event.issue.pull_request != null) && contains(github.event.comment.body, '/wandb')
     runs-on: ubuntu-latest
-    steps:     
-    
+    steps:       
+
     - name: Get repo contents
       uses: actions/checkout@v3
 
@@ -28,7 +28,7 @@ jobs:
         PR_COMMENT: ${{ github.event.comment.body }}
 
 
-          - name: Generate the comparison report
+    - name: Generate the comparison report
       if: steps.get-runid-value.outputs.VAL_FOUND == 'true'
       id: wandb-report
       run: python ./client/project_comparison.p.py
