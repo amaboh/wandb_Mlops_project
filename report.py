@@ -10,4 +10,4 @@ with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
     else:
         print(f'VAL_FOUND=false', file=f)
 
-assert wandb.__version__ == '2.1.01', f'Expected version 2.1.01, but got {wandb.__version__}'
+assert wandb.__version__ == '2.1.01', f'Expected version 2.1.01, but instead got {wandb.__version__}'
